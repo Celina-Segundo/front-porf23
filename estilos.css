@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    text-decoration: none;
+    color: rgb(42, 42, 43);
+    margin-right: 10px;
+    
+}
+
+
+nav > a:hover{
+    text-decoration: none;
+    color: rgb(28, 177, 247);
+}
+
+
+h1.titulo{
+    text-align: center;
+    font-size: 400%;
+    font-family: 'Merriweather', serif;
+}
+
+.presentacion{
+    width: 700%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    margin-top: 10%;
+}
+
+.presentacion{
+    font-size: 200%;
+    font-family: Palatino;
+    width: 200%;
+}
+
+h1{
+    font-size: 400%;
+    font-family: Anton;
+}
+p{
+    font-family: Anton;
+    font-size: 100%;
+}
+
+.fram{
+    display: inline-block;
+   
+}
+
+.fram > img{
+    width: 10%;
+}
+
+.formulario{
+    align-items: center;
+    text-align: center;
+}
+
+.certificaciones > img{
+    width: 20%;
+}
+
+.form2 > img{
+    width: 50%;
+    align-items: center;
+}
+
+h3 > titulo{
+    text-shadow: aqua;
+    font-size: 30px;
+}
+
+.experiencias > img{
+    width: 50%;
+}
+
+#club{
+    width: 50%;
+    shape-image-threshold: inherit;
+}
+
