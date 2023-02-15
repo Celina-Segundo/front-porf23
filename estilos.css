@@ -9,29 +9,11 @@ header{
     height: 600px;
 }
 
-nav{
-    text-align: right;
-    padding: 30px 50px 0 0;
-}
-
-nav > a{
-    text-decoration: none;
-    color: rgb(42, 42, 43);
-    margin-right: 10px;
-    
-}
-
-
-nav > a:hover{
-    text-decoration: none;
-    color: rgb(28, 177, 247);
-}
-
 
 h1.titulo{
     text-align: center;
     font-size: 400%;
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather';
 }
 
 .presentacion{
@@ -94,8 +76,3 @@ h3 > titulo{
     shape-image-threshold: inherit;
 }
 
-.bg-success {
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
-
-  }
