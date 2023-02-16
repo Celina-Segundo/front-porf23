@@ -1,78 +1,26 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header{
-    width: 100%;
-    height: 600px;
-}
-
-
-h1.titulo{
-    text-align: center;
-    font-size: 400%;
     font-family: 'Merriweather';
+    font-size: large;
 }
 
 .presentacion{
-    width: 700%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20%;
-    margin-top: 10%;
+    margin: auto;
+    border: 50px;
+    padding: 20%;
 }
 
-.presentacion{
-    font-size: 200%;
-    font-family: Palatino;
-    width: 200%;
+a{
+    text-decoration: none;
+    color: aliceblue;
 }
 
-h1{
-    font-size: 400%;
-    font-family: Anton;
-}
-p{
-    font-family: Anton;
-    font-size: 100%;
+a:hover{
+    text-decoration: underline;
 }
 
-.fram{
-    display: inline-block;
-   
+.presentacion h1{
+    font-size: 700%;
 }
-
-.fram > img{
-    width: 10%;
+.presentacion p{
+    font-family: 'Sassy Frass', cursiva;
 }
-
-.formulario{
-    align-items: center;
-    text-align: center;
-}
-
-.certificaciones > img{
-    width: 20%;
-}
-
-.form2 > img{
-    width: 50%;
-    align-items: center;
-}
-
-h3 > titulo{
-    text-shadow: aqua;
-    font-size: 30px;
-}
-
-.experiencias > img{
-    width: 50%;
-}
-
-#club{
-    width: 50%;
-    shape-image-threshold: inherit;
-}
-
