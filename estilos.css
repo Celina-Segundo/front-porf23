@@ -1,6 +1,7 @@
 *{
     font-family: 'Merriweather, arial, helvetica';
     font-size: large;
+    
 }
 
 .presentacion{
@@ -29,6 +30,7 @@ header a:hover{
 
 #presentacion{
     background: url(img/background/png_20221220_202155_0000.png);
+   background-attachment: fixed;
 }
 
 #presentacion{
@@ -36,3 +38,33 @@ header a:hover{
     font-weight: 100;
     font-size: 20px;
 }
+
+.contenedor h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+#presentacion p{
+    font-family: 'Poppins', sans-serif;
+}
+
+#costanera p{
+    font-size: 30px;
+    font-style: italic;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+#texto-presentacion p{
+    margin: 10px 100px;
+    display: inline-block;  
+}
+
+#despedida p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin: 10px 20px;
+    text-align: center;
+}
+
