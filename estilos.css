@@ -39,7 +39,7 @@ header a:hover{
     font-size: 20px;
 }
 
-.contenedor h1{
+#presentacion h1{
     font-family: 'Dancing Script', cursive;
     font-size: 80px;
     margin-bottom: 20px;
@@ -67,4 +67,80 @@ header a:hover{
     margin: 10px 20px;
     text-align: center;
 }
+
+.contenedor{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin: 30px 0px;
+}
+
+#experiencias h1{
+    font-size: 80px;
+    width: 200%;
+}
+
+.exp{
+    margin: 20px 200px;
+}
+
+.exp img{
+    width: 500px;
+}
+
+.exp h2{
+    font-size: 50px;
+    width: 200%;
+}
+
+.proyectos-propios{
+    display: inline-block;
+}
+
+.proyectos-propios img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.continer {
+    position: relative;
+    width: 200px;
+    display: inline-block;
+  }
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #06070793;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+.continer:hover .overlay {
+    height: 100%;
+  }
+  
+.text {
+    white-space: nowrap; 
+    color: rgb(250, 249, 249);
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
 
