@@ -1,7 +1,6 @@
 *{
     font-family: 'Merriweather, arial, helvetica';
     font-size: large;
-    
 }
 
 .presentacion{
@@ -94,7 +93,7 @@ header a:hover{
 }
 
 .proyectos-propios{
-    display: inline-block;
+    margin: 20px 20px 150px 150px;
 }
 
 .proyectos-propios img{
@@ -143,4 +142,42 @@ header a:hover{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
+
+#formacion h1{
+    font-size: 100px;
+    width: 200%;
+    color: rgb(0, 0, 0);
+    margin: 0 450px;
+}
+
+#formacion{
+    background-attachment: fixed;
+    background: #f5ed7e;
+    margin-bottom: 0px;
+}
+
+.forma{
+   margin: 20px 100px;
+   border: 5px solid rgba(255, 248, 220, 0.651);
+   background-color: rgba(255, 248, 220, 0.651);
+}
+
+.forma p{
+    text-align: center;
+}
+
+.forma img{
+    width: 150px;
+    margin: 0 200px;
+}
+
+#certificaciones{
+margin: 20px 320px;
+}
+
+
+#certificaciones img{
+    display: inline-block;
+    margin: 0 5px;
+}
 
